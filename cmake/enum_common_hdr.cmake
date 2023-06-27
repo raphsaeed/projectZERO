@@ -5,7 +5,7 @@ set(__common_hdr_dir ${CMAKE_CURRENT_SOURCE_DIR}/common)
 ### Enumerate CameraRemote SDK public header files ###
 message("[${PROJECT_NAME}] Indexing common header files..")
 set(__common_hdrs
-    ${__common_hdr_dir}/CrTypes.h
+    ${__common_hdr_dir}/crTypes.h
 )
 
 set(common_hdrs ${__common_hdrs})

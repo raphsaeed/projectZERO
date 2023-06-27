@@ -1,3 +1,4 @@
+#$ PATH="/Applications/CMake.app/Contents/bin":"$PATH"
 #$ cmake -GXcode .. 
 
 #$ cmake -DCMAKE_BUILD_TYPE=Release ..
@@ -11,18 +12,18 @@ endif(APPLE)
 project(projectZERO LANGUAGES CXX)
 
 ### Append project cmake script dir ###
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake ${CMAKE_CURRENT_SOURCE_DIR}/hpc/cmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 ### Enumerate project files ###
-include(enum_hpc_hdr)
-include(enum_hpc_src)
 include(enum_common_hdr)
+include(enum_project_hdr)
+include(enum_project_src)
 
 ### Define output target ###
 set(projectZERO "${PROJECT_NAME}")
 add_executable(${projectZERO}
-    ${hpc_hdrs}
-    ${hpc_srcs}
+    ${project_hdrs}
+    ${project_srcs}
     ${common_hdrs}
 )
 
@@ -54,7 +55,7 @@ target_compile_options(${projectZERO}
 target_include_directories(${projectZERO}
     PRIVATE
         ${common_hdr_dir} # defined in enum script
-        ${hpc_hdrs}
+        ${project_hdrs}
 )
 
 ### Configure external library directories ###

@@ -1,12 +1,6 @@
 ﻿#ifndef CRTYPES_H
 #define CRTYPES_H
 
-// #if defined(_MSC_VER)
-// #include <tchar.h>
-// #else
-// #define __T(x) x
-// #endif
-
 #if defined(__APPLE__)
 
 #define	_SIZE_T_
