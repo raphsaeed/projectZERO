@@ -1,6 +1,8 @@
+#>>>>for MAC
 #$ PATH="/Applications/CMake.app/Contents/bin":"$PATH"
 #$ cmake -GXcode .. 
 
+#>>>>for Ubuntu
 #$ cmake -DCMAKE_BUILD_TYPE=Release ..
 #$ cmake --build .
 #$ chmod +x projectZERO
