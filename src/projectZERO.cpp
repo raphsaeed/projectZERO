@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
   
-    vector<string> msg {"Hello Raphs --8---8-- SAEED", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"Hello Raphs --OO-OO-- SAEED", "C++", "World", "from", "VS Code", "and the C++ extension!"};
     for (const string& word : msg)
     {
         cout << word << " ";
