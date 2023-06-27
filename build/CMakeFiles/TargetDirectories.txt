@@ -1,4 +1,0 @@
-/Volumes/Projects/Projects/GitHUB/projectZERO/build/CMakeFiles/projectZERO.dir
-/Volumes/Projects/Projects/GitHUB/projectZERO/build/CMakeFiles/install.dir
-/Volumes/Projects/Projects/GitHUB/projectZERO/build/CMakeFiles/ALL_BUILD.dir
-/Volumes/Projects/Projects/GitHUB/projectZERO/build/CMakeFiles/ZERO_CHECK.dir
