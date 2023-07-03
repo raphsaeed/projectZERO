@@ -48,6 +48,13 @@ if(NOT APPLE)
     )
 endif(NOT APPLE)
 
+### Linux specific configuration ###
+if(UNIX AND NOT APPLE)
+    set(THREADS_PREFER_PTHREAD_FLAG ON)
+    find_package(Threads REQUIRED)
+    target_link_libraries(projectZERO PRIVATE Threads::Threads)
+endif(UNIX AND NOT APPLE)
+
 ## Specify char is signed-char to fix mismatch with Raspbian
 target_compile_options(${projectZERO}
     PRIVATE

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/raphs/RaphsORIN/projects/GitHUB/projectZERO/src/projectZERO.cpp
+iostream
+-
+vector
+-
+string
+-
+future
+-
+

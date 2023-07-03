@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     std::cout << "The result is: " << result << std::endl;
     
     
-    vector<string> msg {"Hello Raphs --88---88-- SAEED", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"Hello Raphs --OO---OO-- SAEED", "C++", "World", "from", "VS Code", "and the C++ extension!"};
     for (const string& word : msg)
     {
         cout << word << " ";

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/projectZERO.dir/src/hpc.cpp.o CMakeFiles/projectZERO.dir/src/text.cpp.o CMakeFiles/projectZERO.dir/src/projectZERO.cpp.o  -o projectZERO  -Wl,-rpath,"\$ORIGIN:" -pthread 
