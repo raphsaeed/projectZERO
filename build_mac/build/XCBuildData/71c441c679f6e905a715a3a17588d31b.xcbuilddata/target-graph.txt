@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in projectZERO, no dependencies
+projectZERO in projectZERO, depends on:
+ZERO_CHECK in projectZERO (explicit)
+ALL_BUILD in projectZERO, depends on:
+ZERO_CHECK in projectZERO (explicit)
+projectZERO in projectZERO (explicit)

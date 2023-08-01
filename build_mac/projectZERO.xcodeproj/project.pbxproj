@@ -7,128 +7,128 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		6FA01CBB61A44C72B9784829 /* ZERO_CHECK */ = {
+		3348EBB243AB463888C51F24 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F9806C6ADDA2478482781CD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 1D9E60F4F7B44DC79E226240 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				73E50244381248514FC6D5D3 /* Generate CMakeFiles/ZERO_CHECK */,
+				E0149FA8F468366727A907B1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				366E4BF7A6FB43959950CCB2 /* PBXTargetDependency */,
+				B8F6E2B0C1254EFB840BAD0D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7550803901E54E1AA2AECDF8 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8E293ACB7DA84D8493BB2C1C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DDFDD6EC408349A58EFE0CFD /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D381A5B9359F444E94CB4564 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BDBC9E667E394897973E9655 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EE8881CA6A5D700AA924CDEE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		982127756E1446788CCE4117 /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 76E0A517B5684B3CA8CFB22D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				EED443BA69DC50C026BDE472 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				89525AE82F484854884C4D3C /* PBXTargetDependency */,
-				BC259C05906C47F384ADCFC6 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		F860818A05714B4F8B6CBF75 /* install */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B75D224139D548009B9A581C /* Build configuration list for PBXAggregateTarget "install" */;
-			buildPhases = (
-				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
-			);
-			dependencies = (
-				13D0295331E84819B7BA6F3D /* PBXTargetDependency */,
-			);
-			name = install;
-			productName = install;
-		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		263ED95566FA4BCE80B94163 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/hpc.cpp */ = {isa = PBXBuildFile; fileRef = EED9FDDB3D4945AA9A4CE1E6 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/hpc.cpp */; };
-		8207551EA59E4A859AB7CDDA /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5413D602145E4286AAF342C0 /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */; };
-		8E3119257DA948BDBDDBFAAE /* /Volumes/Projects/Projects/GitHUB/projectZERO/common/crTypes.h */ = {isa = PBXBuildFile; fileRef = FD74B1CF23EB4BD99A38B8EA /* /Volumes/Projects/Projects/GitHUB/projectZERO/common/crTypes.h */; };
-		9826842F6DDB469B9A7A8000 /* /Volumes/Projects/Projects/GitHUB/projectZERO/include */ = {isa = PBXBuildFile; fileRef = 942AF74A770B422B9F0F8235 /* /Volumes/Projects/Projects/GitHUB/projectZERO/include */; };
-		BB66EEFD31924F1ABA21D0F0 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/projectZERO.cpp */ = {isa = PBXBuildFile; fileRef = 8232CC9C90DF4949A141DBDF /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/projectZERO.cpp */; };
-		C2FDA17CA6B74FC7A1970F4E /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/text.cpp */ = {isa = PBXBuildFile; fileRef = 37241FEE0BB243DBB212B8B3 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/text.cpp */; };
+		06AB27594F7E4EEA9C3C4AF5 /* /Volumes/Projects/GitHUB/projectZERO/src/projectZERO.cpp */ = {isa = PBXBuildFile; fileRef = 0BE65D52040F4FE99E0C3FB1 /* /Volumes/Projects/GitHUB/projectZERO/src/projectZERO.cpp */; };
+		115B1ED19A064D65B59F296D /* /Volumes/Projects/GitHUB/projectZERO/src/text.cpp */ = {isa = PBXBuildFile; fileRef = 8DF6C769DD5A44B7B04DCA80 /* /Volumes/Projects/GitHUB/projectZERO/src/text.cpp */; };
+		43B9742F34AA4555832B44B0 /* /Volumes/Projects/GitHUB/projectZERO/src/hpc.cpp */ = {isa = PBXBuildFile; fileRef = 67BD560F98424D3FB66984B1 /* /Volumes/Projects/GitHUB/projectZERO/src/hpc.cpp */; };
+		5E110C85124945F5A3F57701 /* /Volumes/Projects/GitHUB/projectZERO/common/crTypes.h */ = {isa = PBXBuildFile; fileRef = 3CD9496AB3564BAE85D775B9 /* /Volumes/Projects/GitHUB/projectZERO/common/crTypes.h */; };
+		A411639FF96D4458B0024323 /* /Volumes/Projects/GitHUB/projectZERO/include */ = {isa = PBXBuildFile; fileRef = DDFD5E4176444B53BE9EAC98 /* /Volumes/Projects/GitHUB/projectZERO/include */; };
+		F6DB6AA5505247AEB957FD63 /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F45DAF2F0624E41AFE91E5A /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		4A24BD6818034AD394EE7FCA /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		4A78F24AABF44AF4A1A6C232 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		7CE7B83FC31C42D7A4C438BA /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		9CC1EEC4D5F040F6ADFB685C /* Debug */ = {
+		36823E0E776C4F6A80A25B29 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		763FE7ACD1644BF7A41AA39B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9C48C3A38F754871A8F1E516 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F67B404AE64C4C0CAC108447 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		82ED947162B1436997054483 /* PBXContainerItemProxy */ = {
+		3A172070AE924586ADCDBAD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BD53AAC06DB4D07A1943BF5 /* Project object */;
+			containerPortal = 3B2422B79747455BA57B8F64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 982127756E1446788CCE4117;
+			remoteGlobalIDString = 3348EBB243AB463888C51F24;
 			remoteInfo = ALL_BUILD;
 		};
-		8E5F9CAA69844814B4E55BB4 /* PBXContainerItemProxy */ = {
+		9FE1DBF81B5042DEB8DD1E4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BD53AAC06DB4D07A1943BF5 /* Project object */;
+			containerPortal = 3B2422B79747455BA57B8F64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FA01CBB61A44C72B9784829;
-			remoteInfo = ZERO_CHECK;
-		};
-		D831832084694EA8B2EDF4B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2BD53AAC06DB4D07A1943BF5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA064B336B74424696DD2201;
+			remoteGlobalIDString = 14DBD680F165486F81940B8B;
 			remoteInfo = projectZERO;
 		};
-		D9DD5EEFD3AB440F96C2080F /* PBXContainerItemProxy */ = {
+		A9EF7721DD614ABFA4A07C7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BD53AAC06DB4D07A1943BF5 /* Project object */;
+			containerPortal = 3B2422B79747455BA57B8F64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FA01CBB61A44C72B9784829;
+			remoteGlobalIDString = D381A5B9359F444E94CB4564;
+			remoteInfo = ZERO_CHECK;
+		};
+		BB378056C2F14D5093C2D102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B2422B79747455BA57B8F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D381A5B9359F444E94CB4564;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37241FEE0BB243DBB212B8B3 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text.cpp; path = src/text.cpp; sourceTree = SOURCE_ROOT; };
-		5413D602145E4286AAF342C0 /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8232CC9C90DF4949A141DBDF /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/projectZERO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = projectZERO.cpp; path = src/projectZERO.cpp; sourceTree = SOURCE_ROOT; };
-		84C916D080DA4FCD950F583C /* projectZERO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = projectZERO; sourceTree = BUILT_PRODUCTS_DIR; };
-		942AF74A770B422B9F0F8235 /* /Volumes/Projects/Projects/GitHUB/projectZERO/include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = include; path = include; sourceTree = SOURCE_ROOT; };
-		E68C99E1CB0B4D74A9008862 /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		EED9FDDB3D4945AA9A4CE1E6 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/hpc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hpc.cpp; path = src/hpc.cpp; sourceTree = SOURCE_ROOT; };
-		FD74B1CF23EB4BD99A38B8EA /* /Volumes/Projects/Projects/GitHUB/projectZERO/common/crTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crTypes.h; path = common/crTypes.h; sourceTree = SOURCE_ROOT; };
+		0652BDF111AD41FAB91CBBA4 /* projectZERO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = projectZERO; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE65D52040F4FE99E0C3FB1 /* /Volumes/Projects/GitHUB/projectZERO/src/projectZERO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = projectZERO.cpp; path = src/projectZERO.cpp; sourceTree = SOURCE_ROOT; };
+		3CD9496AB3564BAE85D775B9 /* /Volumes/Projects/GitHUB/projectZERO/common/crTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = crTypes.h; path = common/crTypes.h; sourceTree = SOURCE_ROOT; };
+		67BD560F98424D3FB66984B1 /* /Volumes/Projects/GitHUB/projectZERO/src/hpc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hpc.cpp; path = src/hpc.cpp; sourceTree = SOURCE_ROOT; };
+		8DF6C769DD5A44B7B04DCA80 /* /Volumes/Projects/GitHUB/projectZERO/src/text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text.cpp; path = src/text.cpp; sourceTree = SOURCE_ROOT; };
+		9F45DAF2F0624E41AFE91E5A /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DDFD5E4176444B53BE9EAC98 /* /Volumes/Projects/GitHUB/projectZERO/include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = include; path = include; sourceTree = SOURCE_ROOT; };
+		DF39E63869284070BBE2D670 /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7A710A6870A467DB7853011 /* Frameworks */ = {
+		97C85872C42D4788972D119B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,125 +138,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1151C07A71F14A088BF6D552 = {
+		16421906E8D14728BC822359 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				EC35C0542F4D466993414DF0 /* projectZERO */,
-				BD2E209E7EBE407895B76FDD /* ALL_BUILD */,
-				AA844CF2AC30450CBD9E3E3A /* Products */,
-				D3CF277356E54EE4817E3527 /* Frameworks */,
+				3CD9496AB3564BAE85D775B9 /* /Volumes/Projects/GitHUB/projectZERO/common/crTypes.h */,
 			);
+			name = common;
 			sourceTree = "<group>";
 		};
-		431252E9A0DD4C1E8228C466 /* Source Files */ = {
+		48B5C0FD570F4978A517005F /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				EED9FDDB3D4945AA9A4CE1E6 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/hpc.cpp */,
-				8232CC9C90DF4949A141DBDF /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/projectZERO.cpp */,
-				37241FEE0BB243DBB212B8B3 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/text.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		AA844CF2AC30450CBD9E3E3A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84C916D080DA4FCD950F583C /* projectZERO */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BD2E209E7EBE407895B76FDD /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				F212E168E5F64C7D84BE8B73 /* CMake Rules */,
-				E68C99E1CB0B4D74A9008862 /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */,
+				DE6871F09BF64B1BA4ABCDA6 /* CMake Rules */,
+				DF39E63869284070BBE2D670 /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D3CF277356E54EE4817E3527 /* Frameworks */ = {
+		B2B4CF150CE14E7B99BEA304 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				67BD560F98424D3FB66984B1 /* /Volumes/Projects/GitHUB/projectZERO/src/hpc.cpp */,
+				0BE65D52040F4FE99E0C3FB1 /* /Volumes/Projects/GitHUB/projectZERO/src/projectZERO.cpp */,
+				8DF6C769DD5A44B7B04DCA80 /* /Volumes/Projects/GitHUB/projectZERO/src/text.cpp */,
 			);
-			name = Frameworks;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		EC35C0542F4D466993414DF0 /* projectZERO */ = {
+		BB30B18DF41B47DAA7594238 = {
 			isa = PBXGroup;
 			children = (
-				431252E9A0DD4C1E8228C466 /* Source Files */,
-				FFB84955DBDB4CD8972C7968 /* common */,
-				5413D602145E4286AAF342C0 /* /Volumes/Projects/Projects/GitHUB/projectZERO/CMakeLists.txt */,
-				942AF74A770B422B9F0F8235 /* /Volumes/Projects/Projects/GitHUB/projectZERO/include */,
+				FE090B61B66F480CB14ADF3D /* projectZERO */,
+				48B5C0FD570F4978A517005F /* ALL_BUILD */,
+				E6284926A9B1454DB9347CD4 /* Products */,
+				F89334D205264B599314524E /* Frameworks */,
 			);
-			name = projectZERO;
 			sourceTree = "<group>";
 		};
-		F212E168E5F64C7D84BE8B73 /* CMake Rules */ = {
+		DE6871F09BF64B1BA4ABCDA6 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		FFB84955DBDB4CD8972C7968 /* common */ = {
+		E6284926A9B1454DB9347CD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD74B1CF23EB4BD99A38B8EA /* /Volumes/Projects/Projects/GitHUB/projectZERO/common/crTypes.h */,
+				0652BDF111AD41FAB91CBBA4 /* projectZERO */,
 			);
-			name = common;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89334D205264B599314524E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE090B61B66F480CB14ADF3D /* projectZERO */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4CF150CE14E7B99BEA304 /* Source Files */,
+				16421906E8D14728BC822359 /* common */,
+				9F45DAF2F0624E41AFE91E5A /* /Volumes/Projects/GitHUB/projectZERO/CMakeLists.txt */,
+				DDFD5E4176444B53BE9EAC98 /* /Volumes/Projects/GitHUB/projectZERO/include */,
+			);
+			name = projectZERO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA064B336B74424696DD2201 /* projectZERO */ = {
+		14DBD680F165486F81940B8B /* projectZERO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01C3AB4008D744C5858B2BF8 /* Build configuration list for PBXNativeTarget "projectZERO" */;
+			buildConfigurationList = 3648AD02E2914B4EB66F7B20 /* Build configuration list for PBXNativeTarget "projectZERO" */;
 			buildPhases = (
 				DF058C68B270026CBA2196AD /* CMake PreBuild Rules */,
-				F9F0215FF3244846AFE59F5D /* Sources */,
-				D7A710A6870A467DB7853011 /* Frameworks */,
+				FBF00E7175ED45D6808B798A /* Sources */,
+				97C85872C42D4788972D119B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				81785904B18F4C8A9A401348 /* PBXTargetDependency */,
+				24BBC21C93164E52AF35C9DF /* PBXTargetDependency */,
 			);
 			name = projectZERO;
 			productName = projectZERO;
-			productReference = 84C916D080DA4FCD950F583C /* projectZERO */;
+			productReference = 0652BDF111AD41FAB91CBBA4 /* projectZERO */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BD53AAC06DB4D07A1943BF5 /* Project object */ = {
+		3B2422B79747455BA57B8F64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 			};
-			buildConfigurationList = 5230FECAB99F400083231F1B /* Build configuration list for PBXProject "projectZERO" */;
+			buildConfigurationList = 9943B1A20E3643559EA81778 /* Build configuration list for PBXProject "projectZERO" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				9CC1EEC4D5F040F6ADFB685C /* Debug */,
-				7CE7B83FC31C42D7A4C438BA /* Release */,
-				4A24BD6818034AD394EE7FCA /* MinSizeRel */,
-				4A78F24AABF44AF4A1A6C232 /* RelWithDebInfo */,
+				36823E0E776C4F6A80A25B29 /* Debug */,
+				763FE7ACD1644BF7A41AA39B /* Release */,
+				9C48C3A38F754871A8F1E516 /* MinSizeRel */,
+				F67B404AE64C4C0CAC108447 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 1151C07A71F14A088BF6D552;
-			projectDirPath = /Volumes/Projects/Projects/GitHUB/projectZERO;
+			mainGroup = BB30B18DF41B47DAA7594238;
+			projectDirPath = /Volumes/Projects/GitHUB/projectZERO;
 			projectRoot = "";
 			targets = (
-				982127756E1446788CCE4117 /* ALL_BUILD */,
-				6FA01CBB61A44C72B9784829 /* ZERO_CHECK */,
-				F860818A05714B4F8B6CBF75 /* install */,
-				FA064B336B74424696DD2201 /* projectZERO */,
+				3348EBB243AB463888C51F24 /* ALL_BUILD */,
+				D381A5B9359F444E94CB4564 /* ZERO_CHECK */,
+				7550803901E54E1AA2AECDF8 /* install */,
+				14DBD680F165486F81940B8B /* projectZERO */,
 			);
 		};
 /* End PBXProject section */
@@ -275,39 +275,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
-			showEnvVarsInLog = 0;
-		};
-		73E50244381248514FC6D5D3 /* Generate CMakeFiles/ZERO_CHECK */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
-			outputPaths = (
-/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeFiles/ZERO_CHECK			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  make -f /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  make -f /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  make -f /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  make -f /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
-fi
-";
 			showEnvVarsInLog = 0;
 		};
 		87AF4882E018677E2624B544 = {
@@ -338,19 +305,19 @@ exit 0";
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
 fi
 ";
@@ -384,41 +351,41 @@ exit 0";
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug/libraries
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug/models
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug/libraries/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug/models/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug/libraries
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug/models
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug/libraries/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug/models/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release/libraries
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release/models
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release/libraries/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release/models/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/Release/libraries
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/Release/models
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/GitHUB/projectZERO/build_mac/Release/libraries/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/GitHUB/projectZERO/build_mac/Release/models/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external /Volumes/Projects/GitHUB/projectZERO/build_mac/Release
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/libraries
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/models
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/libraries/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/models/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/libraries
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/models
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/libraries/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel/models/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/libraries
-  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/models
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/libraries/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/models/
-  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/Projects/GitHUB/projectZERO/external /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/libraries
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/models
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/libraries /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/libraries/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external/models /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo/models/
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Volumes/Projects/GitHUB/projectZERO/external /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo
 fi
 ";
 			showEnvVarsInLog = 0;
 		};
-		EED443BA69DC50C026BDE472 /* Generate CMakeFiles/ALL_BUILD */ = {
+		E0149FA8F468366727A907B1 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -428,25 +395,58 @@ fi
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/CMakeFiles/ALL_BUILD			);
+/Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeFiles/ALL_BUILD			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
   echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EE8881CA6A5D700AA924CDEE /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  make -f /Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  make -f /Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  make -f /Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Volumes/Projects/GitHUB/projectZERO/build_mac
+  make -f /Volumes/Projects/GitHUB/projectZERO/build_mac/CMakeScripts/ReRunCMake.make
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -454,43 +454,43 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F9F0215FF3244846AFE59F5D /* Sources */ = {
+		FBF00E7175ED45D6808B798A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263ED95566FA4BCE80B94163 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/hpc.cpp */,
-				BB66EEFD31924F1ABA21D0F0 /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/projectZERO.cpp */,
-				C2FDA17CA6B74FC7A1970F4E /* /Volumes/Projects/Projects/GitHUB/projectZERO/src/text.cpp */,
+				43B9742F34AA4555832B44B0 /* /Volumes/Projects/GitHUB/projectZERO/src/hpc.cpp */,
+				06AB27594F7E4EEA9C3C4AF5 /* /Volumes/Projects/GitHUB/projectZERO/src/projectZERO.cpp */,
+				115B1ED19A064D65B59F296D /* /Volumes/Projects/GitHUB/projectZERO/src/text.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13D0295331E84819B7BA6F3D /* PBXTargetDependency */ = {
+		24BBC21C93164E52AF35C9DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 982127756E1446788CCE4117 /* ALL_BUILD */;
-			targetProxy = 82ED947162B1436997054483 /* PBXContainerItemProxy */;
+			target = D381A5B9359F444E94CB4564 /* ZERO_CHECK */;
+			targetProxy = BB378056C2F14D5093C2D102 /* PBXContainerItemProxy */;
 		};
-		81785904B18F4C8A9A401348 /* PBXTargetDependency */ = {
+		366E4BF7A6FB43959950CCB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FA01CBB61A44C72B9784829 /* ZERO_CHECK */;
-			targetProxy = D9DD5EEFD3AB440F96C2080F /* PBXContainerItemProxy */;
+			target = D381A5B9359F444E94CB4564 /* ZERO_CHECK */;
+			targetProxy = A9EF7721DD614ABFA4A07C7C /* PBXContainerItemProxy */;
 		};
-		89525AE82F484854884C4D3C /* PBXTargetDependency */ = {
+		B8F6E2B0C1254EFB840BAD0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FA01CBB61A44C72B9784829 /* ZERO_CHECK */;
-			targetProxy = 8E5F9CAA69844814B4E55BB4 /* PBXContainerItemProxy */;
+			target = 14DBD680F165486F81940B8B /* projectZERO */;
+			targetProxy = 9FE1DBF81B5042DEB8DD1E4D /* PBXContainerItemProxy */;
 		};
-		BC259C05906C47F384ADCFC6 /* PBXTargetDependency */ = {
+		DDFDD6EC408349A58EFE0CFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA064B336B74424696DD2201 /* projectZERO */;
-			targetProxy = D831832084694EA8B2EDF4B7 /* PBXContainerItemProxy */;
+			target = 3348EBB243AB463888C51F24 /* ALL_BUILD */;
+			targetProxy = 3A172070AE924586ADCDBAD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		051BDE49034147519ABFA303 /* RelWithDebInfo */ = {
+		0C2FEFB4794340D285B8506F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -505,69 +505,25 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		1526E473405A4D26B25B9CAF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2C0EC650E6D44826B0F4E5BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		343DC0FB86104807856CE17F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build;
 			};
 			name = MinSizeRel;
 		};
-		52EE44867461437DB82E88EE /* Release */ = {
+		0E5468A76B5F41B2961607DB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Volumes/Projects/GitHUB/projectZERO/build_mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2098887995B34D4A9C87D785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,18 +545,7 @@ fi
 			};
 			name = Release;
 		};
-		7342AFB7CC0245D69694E6FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build;
-			};
-			name = Release;
-		};
-		7C1101CBAE424A78905A36DA /* Debug */ = {
+		2B9CF6B146CF49BCBE9AF62D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -622,7 +567,73 @@ fi
 			};
 			name = Debug;
 		};
-		9268A3EF5DBD4B618B052F28 /* Release */ = {
+		3F4A3540D04D4D9A825F5F4E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3FE43DBDB5184EE7AA2A6954 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		402D059C0C7844AEBA34F9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		49C397711ABC43C881A4BB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -644,13 +655,35 @@ fi
 			};
 			name = Release;
 		};
-		B55EC8EA210A44A8AC768034 /* RelWithDebInfo */ = {
+		55C1341F75434B3CBAC3D00B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6776CBE2F0B74324B8932934 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Volumes/Projects/GitHUB/projectZERO/build_mac/RelWithDebInfo;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -658,7 +691,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Volumes/Projects/Projects/GitHUB/projectZERO/common,/Volumes/Projects/Projects/GitHUB/projectZERO/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Volumes/Projects/GitHUB/projectZERO/common,/Volumes/Projects/GitHUB/projectZERO/include,"$(inherited)");
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = ("@executable_path","$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
@@ -667,19 +700,41 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = projectZERO;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Volumes/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		B77893EF8FD646C5A977DE00 /* Debug */ = {
+		72993C368602460188506F48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Debug;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B53AE4497B7411FB71D15F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Volumes/Projects/GitHUB/projectZERO/build_mac/Debug;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -687,7 +742,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Volumes/Projects/Projects/GitHUB/projectZERO/common,/Volumes/Projects/Projects/GitHUB/projectZERO/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Volumes/Projects/GitHUB/projectZERO/common,/Volumes/Projects/GitHUB/projectZERO/include,"$(inherited)");
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = ("@executable_path","$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
@@ -696,13 +751,24 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = projectZERO;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Volumes/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		BCF062A556844F1A9F52C8AF /* MinSizeRel */ = {
+		95F40C682188430E9888BF6D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Volumes/Projects/GitHUB/projectZERO/build_mac/build;
+			};
+			name = MinSizeRel;
+		};
+		9CF5012923F24E27BCD1277E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -722,15 +788,15 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		CA4C44C9C3BD45B59804BE3F /* MinSizeRel */ = {
+		A934CF22C64D4F7BAB85821E /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/MinSizeRel;
+				CONFIGURATION_BUILD_DIR = /Volumes/Projects/GitHUB/projectZERO/build_mac/MinSizeRel;
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -738,7 +804,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Volumes/Projects/Projects/GitHUB/projectZERO/common,/Volumes/Projects/Projects/GitHUB/projectZERO/include,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Volumes/Projects/GitHUB/projectZERO/common,/Volumes/Projects/GitHUB/projectZERO/include,"$(inherited)");
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = ("@executable_path","$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
@@ -747,96 +813,13 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = projectZERO;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Volumes/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		DD20C49FA8234F1E8BB8E942 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/Release;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Volumes/Projects/Projects/GitHUB/projectZERO/common,/Volumes/Projects/Projects/GitHUB/projectZERO/include,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = ("@executable_path","$(inherited)");
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' -fsigned-char ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = projectZERO;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DE990C3DACF349E788CA30D0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		E253377DFD0141529E7F274E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
-				SYMROOT = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build;
-			};
-			name = Debug;
-		};
-		E5B06E87F86748CFA20E3581 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E836AEA44599401C99742FDB /* MinSizeRel */ = {
+		B3FBEDA51BB946D5825D3D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -856,9 +839,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		ECCE23DA05774951B72F6C83 /* RelWithDebInfo */ = {
+		D4D942888682408BA6EE3389 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -873,105 +856,122 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		F7EFF5EEBEFA47FB806CB151 /* Release */ = {
+		D92BF511866342E7B4C41BD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				CONFIGURATION_BUILD_DIR = /Volumes/Projects/GitHUB/projectZERO/build_mac/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Volumes/Projects/GitHUB/projectZERO/common,/Volumes/Projects/GitHUB/projectZERO/include,"$(inherited)");
 				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@executable_path","$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' -fsigned-char ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = projectZERO;
 				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Volumes/Projects/GitHUB/projectZERO/build_mac/build/projectZERO.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		FF2F7D4A75204C3C9433DC8D /* RelWithDebInfo */ = {
+		D976FAD0C416405E80806B60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Volumes/Projects/Projects/GitHUB/projectZERO/build_mac/build;
+				SYMROOT = /Volumes/Projects/GitHUB/projectZERO/build_mac/build;
 			};
-			name = RelWithDebInfo;
+			name = Release;
+		};
+		DD8868AFDE3E4D37B2D2D547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = /Volumes/Projects/GitHUB/projectZERO/build_mac/build;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01C3AB4008D744C5858B2BF8 /* Build configuration list for PBXNativeTarget "projectZERO" */ = {
+		1D9E60F4F7B44DC79E226240 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B77893EF8FD646C5A977DE00 /* Debug */,
-				DD20C49FA8234F1E8BB8E942 /* Release */,
-				CA4C44C9C3BD45B59804BE3F /* MinSizeRel */,
-				B55EC8EA210A44A8AC768034 /* RelWithDebInfo */,
+				2B9CF6B146CF49BCBE9AF62D /* Debug */,
+				2098887995B34D4A9C87D785 /* Release */,
+				55C1341F75434B3CBAC3D00B /* MinSizeRel */,
+				3FE43DBDB5184EE7AA2A6954 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5230FECAB99F400083231F1B /* Build configuration list for PBXProject "projectZERO" */ = {
+		3648AD02E2914B4EB66F7B20 /* Build configuration list for PBXNativeTarget "projectZERO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E253377DFD0141529E7F274E /* Debug */,
-				7342AFB7CC0245D69694E6FB /* Release */,
-				343DC0FB86104807856CE17F /* MinSizeRel */,
-				FF2F7D4A75204C3C9433DC8D /* RelWithDebInfo */,
+				7B53AE4497B7411FB71D15F2 /* Debug */,
+				D92BF511866342E7B4C41BD9 /* Release */,
+				A934CF22C64D4F7BAB85821E /* MinSizeRel */,
+				6776CBE2F0B74324B8932934 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		76E0A517B5684B3CA8CFB22D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		8E293ACB7DA84D8493BB2C1C /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C1101CBAE424A78905A36DA /* Debug */,
-				52EE44867461437DB82E88EE /* Release */,
-				DE990C3DACF349E788CA30D0 /* MinSizeRel */,
-				1526E473405A4D26B25B9CAF /* RelWithDebInfo */,
+				402D059C0C7844AEBA34F9CD /* Debug */,
+				72993C368602460188506F48 /* Release */,
+				0C2FEFB4794340D285B8506F /* MinSizeRel */,
+				9CF5012923F24E27BCD1277E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B75D224139D548009B9A581C /* Build configuration list for PBXAggregateTarget "install" */ = {
+		9943B1A20E3643559EA81778 /* Build configuration list for PBXProject "projectZERO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5B06E87F86748CFA20E3581 /* Debug */,
-				F7EFF5EEBEFA47FB806CB151 /* Release */,
-				BCF062A556844F1A9F52C8AF /* MinSizeRel */,
-				ECCE23DA05774951B72F6C83 /* RelWithDebInfo */,
+				DD8868AFDE3E4D37B2D2D547 /* Debug */,
+				D976FAD0C416405E80806B60 /* Release */,
+				95F40C682188430E9888BF6D /* MinSizeRel */,
+				0E5468A76B5F41B2961607DB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F9806C6ADDA2478482781CD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		BDBC9E667E394897973E9655 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C0EC650E6D44826B0F4E5BE /* Debug */,
-				9268A3EF5DBD4B618B052F28 /* Release */,
-				E836AEA44599401C99742FDB /* MinSizeRel */,
-				051BDE49034147519ABFA303 /* RelWithDebInfo */,
+				B3FBEDA51BB946D5825D3D5E /* Debug */,
+				49C397711ABC43C881A4BB60 /* Release */,
+				3F4A3540D04D4D9A825F5F4E /* MinSizeRel */,
+				D4D942888682408BA6EE3389 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BD53AAC06DB4D07A1943BF5 /* Project object */;
+	rootObject = 3B2422B79747455BA57B8F64 /* Project object */;
 }
